@@ -1,0 +1,17 @@
+1. literal value kake bole ? 
+ans : ekti statement => a = b * 2; ekhane a and b ekta variable but 2 holo literal value 
+
+
+
+2. Statement ki ? 
+Ans : স্টেটমেন্ট এক বা একাধিক expression দিয়ে তৈরি। Expression হলো যেকোনো ভ্যারিয়েবল বা মানের রেফারেন্স, অথবা ভ্যারিয়েবল ও মান অপারেটরের মাধ্যমে মিলিয়ে তৈরি করা অংশ।
+উদাহরণ:
+a = b * 2;
+এই স্টেটমেন্টে চারটি expression রয়েছে:
+• 2 হলো একটি literal value expression।
+• b হলো একটি variable expression, যা তার বর্তমান মান বের করে আনার নির্দেশ দেয়।
+• b * 2 হলো একটি arithmetic expression, যা গুণ করার নির্দেশ দেয়।
+• a = b * 2 হলো একটি assignment expression, যা b * 2 expression-এর ফলাফল ভ্যারিয়েবল a-তে অ্যাসাইন করার নির্দেশ দেয় (অ্যাসাইনমেন্ট নিয়ে পরে আরও আলোচনা আছে)।
+যে সাধারণ expression একা থাকে সেটাকেও expression statement বলা হয়, যেমন:
+b * 2;
+এই ধরণের expression statement খুব সাধারণ নয় বা খুব কার্যকরও নয়, কারণ এতে সাধারণত প্রোগ্রাম চলার ওপর কোনো প্রভাব পড়ে না—এটি b-র মান বের করে 2 দিয়ে গুণ করবে, কিন্তু ফলাফলটি দিয়ে আর কিছুই করবে না।
